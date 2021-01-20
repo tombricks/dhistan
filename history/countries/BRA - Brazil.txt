@@ -1,0 +1,141 @@
+﻿#########################################################################
+# Brazil - 1933
+#########################################################################
+1933.1.1 = {
+	oob = "BRA_1933"
+	capital = 500
+	set_convoys = 40
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		Support_Weapons_1914 = 1
+		Support_Weapons_1918 = 1
+		Heavy_Weapons_1905 = 1
+		Heavy_Weapons_1916 = 1
+		
+		
+		### Support Company Tech
+		tech_support = 1		
+		tech_engineers = 1
+		Artillery_1910 = 1
+        Artillery_Range_Finding_and_Surveying_Tools = 1
+        Artillery_1916 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		#Air
+		Fighter_1914 = 1
+        Fighter_1916 = 1
+        Fighter_1918 = 1
+        Fighter_1924 = 1
+		Fighter_Bomber_1916 = 1
+        Fighter_Bomber_1918 = 1
+		Tactical_Bomber_1910 = 1
+        Tactical_Bomber_1914 = 1
+        Tactical_Bomber_1916 = 1
+        Tactical_Bomber_1918 = 1
+        Tactical_Bomber_1925 = 1
+		Strategic_Bomber_1916 = 1
+	# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		Light_Tank_1917 = 1
+		Light_Tank_1919 = 1
+		Armored_Car_1911 = 1
+        Armored_Car_1916 = 1
+		Armored_Car_1926 = 1
+	# Land Doctrine Tech
+		Twentieth_Century_Warfare = 1
+		Leading_by_Order = 1
+		Strongpoint = 1
+		Mass_Charge = 1
+		Static_Defence = 1
+		Counterattack = 1
+		Defence_In_Depth = 1
+		Separate_Arms_Force = 1
+		Combined_Arms_Effort = 1
+		Specialized_Branch_Tactical_Experience = 1
+	# Naval Doctrine
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+	#Naval stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+	
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+	
+		SS_1895 = 1
+		SS_1912 = 1
+		
+		BB_1885 = 1
+		BB_1895 = 1
+		BB_1900 = 1
+		BB_1906 = 1
+		BB_1912 = 1
+		BB_1916 = 1
+		BB_1922 = 1	
+	#Industry
+		Industrial_Management = 1
+		Factory_Electrification = 1
+		Facilities_Design = 1
+		Moving_Assembly_Line = 1
+		Mass_Production = 1
+		Basic_Construction_Machines = 1
+		Motorized_Plowing = 1
+		Farm_Tractors = 1
+		Scientific_Agricultural_Processes = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1934.7.17"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 15
+		authoritarian = 75
+		democratic = 0
+		socialist = 10
+		communist = 0
+	}
+	add_ideas = {
+	# Cabinet
+		industrializing_economy
+		neutrality
+		limited_civil_liberties
+	# Military Staff
+	}
+	#######################
+	# Diplomacy
+	#######################
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "AlgerianGeneral"
+		desc = ""
+		picture = "gfx/leaders/ALG/M_AlgerianGeneral.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = {
+			POSITION_Supreme_Leader
+			SUBIDEOLOGY_Military_Dictatorship
+		}
+	}
+}

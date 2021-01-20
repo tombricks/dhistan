@@ -1,0 +1,20 @@
+ideas = {
+#################################################
+### Head of Government
+#################################################
+	Head_of_Government = {
+		#BlackTiger
+			BRA_HoG_BlackTiger = {
+				picture = BlackTiger
+				allowed = { tag = BRA }
+				available = {
+					date > 1917.1.1
+					date < 1940.1.1
+					NOT = { has_country_flag = BlackTiger_unavailable }
+				}
+				
+				
+				traits = { ideology_A POSITION_Prime_Minister }
+			}
+	}
+}

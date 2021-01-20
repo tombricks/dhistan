@@ -115,6 +115,7 @@
 	}
 	add_ideas = {
 	# Cabinet
+		BRA_HoG_BlackTiger
 		industrializing_economy
 		neutrality
 		limited_civil_liberties
